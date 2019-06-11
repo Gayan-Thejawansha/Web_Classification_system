@@ -1,0 +1,43 @@
+import random
+import time
+
+def mergeSort(array):
+	
+	if (len(array)>1):
+		mid=len(array)//2
+		left=array[:mid]
+		right=array[mid:]
+		
+		mergeSort(left)
+		mergeSort(right)
+
+		i=0
+		j=0
+		k=0
+		while (i<len(left))and(j<len(right)):
+			if(left[i]<right[j]):
+				array[k]=left[i]
+				i=i+1
+			else:
+				array[k]=right[j]
+				j=j+1
+			k=k+1
+		while (i <len(left)):
+			array[k]=left[i]
+			i=i+1
+			k=k+1
+
+		while(j< len(right)):
+			array[k]=right[j]
+			j=j+1
+			k=k+1
+	
+
+array=[958,8,70,6,50,4,30,247,1,0,32,80,456,300,789,70,32,7889,7889,4789,5,7889]
+print ("Before Sort:",array," \n")
+start_time=time.time()
+mergeSort(array)
+end_time = time.time()       
+print("After sort by MergeSort=" ,array)
+print ("Execution time = ",(end_time-start_time))
+print("############################### \n \n \n")
