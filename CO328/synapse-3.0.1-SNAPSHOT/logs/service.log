@@ -1,7 +1,0 @@
-2017-09-22 16:32:03,466 [-] [Timer-0]  INFO StockQuote Building Axis service for Proxy service : StockQuote
-2017-09-22 16:32:03,695 [-] [Timer-0] ERROR StockQuote Unknown WSDL format.. not WSDL 1.1 or WSDL 2.0
-2017-09-22 16:33:17,667 [-] [main]  INFO StockQuote Building Axis service for Proxy service : StockQuote
-2017-09-22 16:33:17,712 [-] [main] ERROR StockQuote Unknown WSDL format.. not WSDL 1.1 or WSDL 2.0
-2017-09-22 16:34:27,378 [-] [Timer-0]  INFO StockQuote Stopped the proxy service : StockQuote
-2017-09-22 16:34:27,378 [-] [Timer-0]  INFO StockQuote Building Axis service for Proxy service : StockQuote
-2017-09-22 16:34:27,383 [-] [Timer-0] ERROR StockQuote Unknown WSDL format.. not WSDL 1.1 or WSDL 2.0
